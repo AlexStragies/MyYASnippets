@@ -7,3 +7,5 @@
 
 * Graphviz
 * org-mode
+
+* Soon: Javascript
