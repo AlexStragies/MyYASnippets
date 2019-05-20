@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tooltip-attribute
+# key: tt
+# --
+tooltip="$1"${2:,}$0

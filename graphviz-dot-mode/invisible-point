@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: invisible-point
+# key: ip
+# --
+${1:hp}$2[style="invisible"$3];$0

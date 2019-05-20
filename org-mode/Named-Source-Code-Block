@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Named-Source-Code-Block
+# key: scb
+# --
+
+${1:#+NAME: ${2:Block-Name}
+}${3:#+HEADER: $4
+}#+BEGIN_SRC ${5:$$(yas-choose-value '("emacs-lisp" "shell" "awk" "graphviz-dot"))}
+$0
+#+END_SRC

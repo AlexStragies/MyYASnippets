@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: URL-attribute-with-target
+# key: urlt
+# --
+url="${1:path2to/file.html}\\" target=\"_blank"${2:,}$0

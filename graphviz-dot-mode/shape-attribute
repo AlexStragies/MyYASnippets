@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: shape-attribute
+# key: sh
+# --
+shape="${1:$$(yas-choose-value '("box" "circle" "ellipse" "diamond" "folder" "hexagon" "none" "parallelogram" "point"))}"${2:,}$0

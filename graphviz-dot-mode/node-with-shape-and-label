@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: node-shape-label
+# key: nsl
+# --
+${1:nodeID}[shape="${2:$$(yas-choose-value '("box" "circle" "ellipse" "diamond" "folder" "hexagon" "none" "parallelogram" "point"))}", label="$3"];

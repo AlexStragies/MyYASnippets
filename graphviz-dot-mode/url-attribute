@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: URL-attribute
+# key: url
+# --
+url="${1:path2to/file.html}"${2:,}$0

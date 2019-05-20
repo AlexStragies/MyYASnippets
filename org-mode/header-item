@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: header-item
+# key: hd
+# --
+#+HEADER: $0

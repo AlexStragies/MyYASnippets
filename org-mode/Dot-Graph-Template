@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# name: Dot-template
+# key: gdot
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+#+NAME: $1
+#+BEGIN_SRC graphviz-dot
+//## <html><script src="js/org-render.js"></script><body><!--
+graph ${2:$1} { label="$3${4:$1}$5"
+// Some useful (technical) graph properties defaults (Expert Settings):
+  id="\G"; node [id="\N"]; edge [id="\T-\H"]  // Enhances programmatic access${6:
+  stylesheet="${7:css/}${8:fileName}.css"}
+  labelloc="top" labeljust="left"             // Graph label placement
+  layout="${9:$$(yas-choose-value '("dot" "twopi" "neato"))}"  // Choose renderer. [dot,twopi,neato]
+  splines="line"                         // Straight lines!
+  margin="0,0"
+
+// Settings the graph author might want to change/adjust:
+  rankdir=TD;
+  node [shape=box height="0" width="0" margin="0.03"];
+
+// Add your Graph Nodes here:${10:
+  L1 -- \{ L2, L3, L4 \};}
+  $0
+
+}
+#+END_SRC

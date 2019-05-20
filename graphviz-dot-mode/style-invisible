@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: style-invisible
+# key: i
+# --
+style="invisible"${1:,}$0

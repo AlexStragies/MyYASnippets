@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: tbl2
+# key: tbl2
+# --
+#+NAME: $1
+| $2 | $3 |
+|-------
+| $4 | $5 |

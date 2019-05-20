@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: image-attribute
+# key: img
+# --
+image="${1:img/}${2:pic}.${3:svg}"${4:,}$0

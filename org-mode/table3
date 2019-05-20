@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: tbl3
+# key: tbl3
+# --
+#+BEGIN_DIV_$1
+#+NAME: $1
+| $2 | $3 | $4 |
+|-------
+| $5 | $6 | $7 |
+
+#+END_DIV_$1

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: node-with-attributes
+# key: n
+# --
+${1:nodeID}[$0];

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: URL-attribute-with-injected-class
+# key: cl
+# --
+url="${1:#}\\" class=\\"$2"${3:,}$0
